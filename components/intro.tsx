@@ -21,7 +21,7 @@ function Intro() {
             <Image
               src={profileImage}
               alt="Profile image"
-              quality="80"
+              quality={85}
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
@@ -42,7 +42,7 @@ function Intro() {
         </div>
       </div>
 
-      <motion.p
+      <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -53,7 +53,7 @@ function Intro() {
           React Full Stack Developer
         </span>{" "}
         based in Montreal, Canada.
-      </motion.p>
+      </motion.h1>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -83,13 +83,17 @@ function Intro() {
         </a>
 
         <a
-          href=""
+          href="https://www.linkedin.com/in/arthur-duboks"
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-white p-4 flex items-center gap-2 rounded-full text-gray-700 border border-black/10 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950"
         >
           <BsLinkedin />
         </a>
         <a
-          href=""
+          href="https://github.com/arthurduboks"
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-white p-4 flex items-center gap-2 rounded-full text-gray-700 border border-black/10 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950"
         >
           <FaGithub />

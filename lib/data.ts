@@ -93,6 +93,7 @@ export const skillsData = [
   "Next.js",
   "Bootstrap",
   "Tailwind",
+  "Headless UI",
   "shadcn",
   "daisyUI",
   "Prisma",
