@@ -8,9 +8,11 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
 import profileImage from "@/public/profileimg.png";
 import { useSectionInView } from "@/lib/hooks";
+import { useActiveSectionContext } from "@/context/active-section-context";
 
 function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
+  const { setActiveSection, setLastClickTime } = useActiveSectionContext();
 
   return (
     <section
@@ -71,6 +73,10 @@ function Intro() {
         <Link
           href="#contact"
           className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition group"
+          onClick={() => {
+            setActiveSection("Contact");
+            setLastClickTime(Date.now());
+          }}
         >
           Say Hello
           <span className="inline-block transition-transform group-hover:translate-x-1">
