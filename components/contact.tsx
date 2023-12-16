@@ -5,16 +5,11 @@ import SectionHeading from "./section-heading";
 import { FaPaperPlane } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import { sendEmail } from "@/actions/sendEmail";
 
 function Contact() {
   const { ref } = useSectionInView("Contact");
 
-  const sendEmail = async (FormData: FormData) => {
-    "use server";
-
-    console.log(FormData.get("senderEmail"));
-    console.log(FormData.get("senderMessage"));
-  };
   return (
     <motion.section
       ref={ref}
