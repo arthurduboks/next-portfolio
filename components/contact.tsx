@@ -47,7 +47,7 @@ function Contact() {
           placeholder="Say something..."
           name="senderMessage"
           required
-          maxLength={500}
+          maxLength={1000}
         />
         <button
           type="submit"
