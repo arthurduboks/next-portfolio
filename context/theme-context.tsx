@@ -32,7 +32,7 @@ export default function ThemeContextProvider({
   };
 
   useEffect(() => {
-    const localTheme = window.localStorage.getItem("isDark") as Mode | null;
+    const localTheme = window.localStorage.getItem("isDark") as isDark | null;
 
     if (localTheme) {
       setTheme(localTheme);
