@@ -40,7 +40,7 @@ function Skills() {
             }}
             custom={index}
             key={index}
-            className="bg-white border border-black/[0.1] rounded-xl px-5 py-5 m-[0.2rem]"
+            className="bg-white border border-black/[0.1] rounded-xl px-5 py-5 m-[0.2rem] dark:bg-white/10 dark:text-white/80"
           >
             {skill}
           </motion.li>
