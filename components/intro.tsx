@@ -87,7 +87,7 @@ function Intro() {
         <a
           href="/CV.pdf"
           download
-          aria-label="Download my resume as a PDF"
+          aria-label="Download resume"
           className="bg-white px-7 py-3 flex items-center gap-2 rounded-full group transition outline-none focus:scale-110 hover:scale-110 active:scale-105 border borderBlack dark:bg-white/10"
         >
           Download Resume
@@ -100,7 +100,7 @@ function Intro() {
           href="https://www.linkedin.com/in/arthur-duboks"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="My LinkedIn profile link"
+          aria-label="LinkedIn profile link button"
           className="bg-white p-4 flex items-center gap-2 rounded-full text-gray-700 border border-black/10 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950 dark:bg-white/10 dark:text-white/60"
         >
           <BsLinkedin />
@@ -109,6 +109,7 @@ function Intro() {
           href="https://github.com/arthurduboks"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Github profile link button"
           className="bg-white p-4 flex items-center gap-2 rounded-full text-gray-700 border border-black/10 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950 dark:bg-white/10 dark:text-white/60"
         >
           <FaGithub />
