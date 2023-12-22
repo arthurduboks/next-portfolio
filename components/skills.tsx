@@ -26,7 +26,7 @@ function Skills() {
     <section
       id="skills"
       ref={ref}
-      className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
+      className="!mb-20 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
     >
       <SectionHeading>Tech Stack</SectionHeading>
       <ul className="flex flex-wrap justify-center text-lg text-gray-800">

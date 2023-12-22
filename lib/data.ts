@@ -1,6 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import dropboxImg from "@/public/dropboxclone.png";
 import ecomProjectImg from "@/public/ecomproject.png";
@@ -35,28 +34,44 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "North-America E-shop Brand Manager",
+    location: "Canada, Montreal",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Day-to-day e-commerce management of Thrustmaster & Hercules DJ in the USA. Additionally, I manage digital advertising, SEO, and more.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2020 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Lighthouse Labs",
+    location: "Canada",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Completed a one-month Web Development course with a focus on HTML5, CSS3, Ruby, and MySQL.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022",
+  },
+  {
+    title: "L1 Tech Support",
+    location: "Remote, Contract",
+    description:
+      "Assist Debutify Shopify theme users in optimizing their sites by providing expertise in HTML, CSS, and Shopify Liquid.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - present",
+  },
+  {
+    title: "MCIT",
+    location: "Canada, Montreal",
+    description:
+      "Completed a comprehensive 900-hour immersive college program focused on Full-Stack Development.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023",
+  },
+  {
+    title: "L2 Tech Support",
+    location: "Remote, Contract",
+    description:
+      "I now manage Level 2 support tickets, which includes issues related to CSS, Shopify Liquid, and JavaScript",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - present",
   },
 ] as const;
 
