@@ -8,7 +8,6 @@ import { Toaster } from "react-hot-toast";
 import Footer from "@/components/footer";
 import DarkMode from "@/components/dark-mode";
 import ThemeContextProvider from "@/context/theme-context";
-import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,9 +18,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
-      <Head>
-        <link rel="icon" href="/public/favicon.ico" sizes="any" />
-      </Head>
       {/* Background color pallette */}
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
