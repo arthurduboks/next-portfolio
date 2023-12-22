@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <Head>
-        <link rel="icon" href="/app/favicon.ico" sizes="any" />
+        <link rel="icon" href="/public/favicon.ico" sizes="any" />
       </Head>
       {/* Background color pallette */}
       <body
