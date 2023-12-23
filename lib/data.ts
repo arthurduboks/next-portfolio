@@ -37,7 +37,7 @@ export const experiencesData = [
     title: "North-America E-shop Brand Manager",
     location: "Canada, Montreal",
     description:
-      "Day-to-day e-commerce management of Thrustmaster & Hercules DJ in the USA. Additionally, I manage digital advertising, SEO, and more.",
+      "Day-to-day e-commerce management of Thrustmaster & Hercules DJ USA. Additionally, I manage digital advertising, SEO, and more.",
     icon: React.createElement(CgWorkAlt),
     date: "2020 - 2023",
   },
@@ -63,13 +63,13 @@ export const experiencesData = [
     description:
       "Completed a comprehensive 900-hour immersive college program focused on Full-Stack Development.",
     icon: React.createElement(LuGraduationCap),
-    date: "2023",
+    date: "2022 - 2023",
   },
   {
     title: "L2 Tech Support",
     location: "Remote, Contract",
     description:
-      "I now manage Level 2 support tickets, which includes issues related to CSS, Shopify Liquid, and JavaScript",
+      "I now manage Level 2 support tickets, which includes issues related to CSS, Shopify Liquid, and JavaScript.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - present",
   },

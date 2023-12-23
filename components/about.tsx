@@ -18,10 +18,10 @@ function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        I started with a strong background in digital marketing and followed my{" "}
+        I started with a strong background in Digital Marketing and followed my{" "}
         <span className="italic">passion</span> for programming. I finished an
         immersive 900-hour course in{" "}
-        <span className="font-semibold">full-stack development</span> at{" "}
+        <span className="font-semibold">Full-Stack Development</span> at{" "}
         <a
           href="https://www.montrealcollege.ca/"
           target="_blank"
@@ -33,7 +33,7 @@ function About() {
         . I <span className="italic">love</span> seeing my code come to life and
         do amazing things. My core stack is React, Node.js, Express and Mongo
         DB. Recently, I've been extensively working with Next.js paired with
-        Firebase or Appwrite. I know how to use TypeScript, create use
+        Firebase and Appwrite. I know how to use TypeScript, create user
         authentication, and how to make websites look great thanks to Tailwind
         CSS and Framer Motion.
       </p>
