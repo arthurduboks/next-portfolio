@@ -5,10 +5,17 @@ import { useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
+import { FaGithub } from "react-icons/fa";
 
 type ProjectProps = (typeof projectsData)[number];
 
-function Project({ title, description, tags, imageUrl }: ProjectProps) {
+function Project({
+  title,
+  description,
+  tags,
+  imageUrl,
+  projectLink,
+}: ProjectProps) {
   const ref = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -41,6 +48,15 @@ function Project({ title, description, tags, imageUrl }: ProjectProps) {
               </li>
             ))}
           </ul>
+          <a
+            href={projectLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center mt-3 text-white text-sm underline"
+          >
+            <FaGithub className="mr-2" />
+            Project Link
+          </a>
         </div>
         <Image
           src={imageUrl}

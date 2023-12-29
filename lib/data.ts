@@ -90,6 +90,7 @@ export const projectsData = [
       "Zustand",
     ],
     imageUrl: dropboxImg,
+    projectLink: "https://github.com/arthurduboks/dropbox-clone",
   },
   {
     title: "E-Commerce Project",
@@ -106,6 +107,7 @@ export const projectsData = [
       "Stripe",
     ],
     imageUrl: ecomProjectImg,
+    projectLink: "https://github.com/arthurduboks/e_com_next",
   },
   {
     title: "React Music Player",
@@ -113,6 +115,7 @@ export const projectsData = [
       "Music Player App built with React. Supports dynamic song selection and custom color tracking.",
     tags: ["React", "SCSS"],
     imageUrl: reactMusicPlayerImg,
+    projectLink: "https://github.com/arthurduboks/music_app",
   },
 ] as const;
 
