@@ -52,7 +52,7 @@ function Project({
             href={projectLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center mt-3 text-white text-sm underline"
+            className="flex items-center mt-3 text-gray-700 dark:text-white/70 text-sm underline"
           >
             <FaGithub className="mr-2" />
             Project Link
