@@ -8,7 +8,7 @@ import Contact from "@/components/contact";
 import Divider from "@/components/divider";
 import Favicon from "@/public/favicon.ico";
 
-// Define schema and metadata types
+// Define metadata types
 interface IconLink {
   rel: string;
   url: string;
