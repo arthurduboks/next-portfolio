@@ -28,6 +28,26 @@ export const metadata: Metadata = {
   icons: [{ rel: "icon", url: Favicon.src as string }],
 };
 
+function addPersonJsonLd() {
+  return {
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Arthur Duboks",
+      url: "http://www.arthurduboks.com",
+      jobTitle: "Full Stack Developer",
+      headline: metadata.title,
+      image:
+        "https://www.codebyarthur.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprofileimg.6e291786.png&w=384&q=85",
+      sameAs: [
+        "https://github.com/arthurduboks",
+        "https://www.linkedin.com/in/arthur-duboks",
+      ],
+      description: metadata.description,
+    }),
+  };
+}
+
 export default function Home() {
   return (
     <>
@@ -39,25 +59,8 @@ export default function Home() {
         ))}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: `
-    {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Arthur Duboks",
-        "url": "http://www.arthurduboks.com",
-        "jobTitle": "Full Stack Developer",
-        "headline": "${metadata.title}",
-        "sameAs": [
-          "https://github.com/arthurduboks",
-          "https://www.linkedin.com/in/arthur-duboks"
-      ],
-      "description": "Arthur Duboks is a Full Stack Developer from Montreal with a deep focus on React, and its eco-system."
-      
-    }
-`,
-          }}
-        ></script>
+          dangerouslySetInnerHTML={addPersonJsonLd()}
+        />
       </Head>
       <main className="flex flex-col items-center pt-24">
         <Intro />
