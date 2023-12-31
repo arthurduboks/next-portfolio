@@ -7,7 +7,18 @@ import Experience from "@/components/experience";
 import Contact from "@/components/contact";
 import Divider from "@/components/divider";
 import Favicon from "@/public/favicon.ico";
-import { Metadata, PersonSchema } from "@/meta/meta";
+
+// Define schema and metadata types
+interface IconLink {
+  rel: string;
+  url: string;
+}
+
+interface Metadata {
+  title: string;
+  description: string;
+  icons: IconLink[];
+}
 
 // Metadata
 export const metadata: Metadata = {
@@ -15,23 +26,6 @@ export const metadata: Metadata = {
   description:
     "Arthur Duboks is a Full Stack Developer from Montreal with a deep focus on React, and its eco-system.",
   icons: [{ rel: "icon", url: Favicon.src as string }],
-};
-
-// Person schema
-const personSchema: PersonSchema = {
-  "@context": "http://schema.org",
-  "@type": "Person",
-  name: "Arthur Duboks",
-  url: "http://www.arthurduboks.com",
-  jobTitle: "Full Stack Developer",
-  worksFor: {
-    "@type": "Organization",
-    name: "Arthur Duboks",
-  },
-  sameAs: [
-    "http://www.linkedin.com/in/arthurduboks",
-    "http://www.github.com/arthurduboks",
-  ],
 };
 
 export default function Home() {
@@ -46,9 +40,24 @@ export default function Home() {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(personSchema) as string,
+            __html: `
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Arthur Duboks",
+        "url": "http://www.arthurduboks.com",
+        "jobTitle": "Full Stack Developer",
+        "headline": "${metadata.title}",
+        "sameAs": [
+          "https://github.com/arthurduboks",
+          "https://www.linkedin.com/in/arthur-duboks"
+      ],
+      "description": "Arthur Duboks is a Full Stack Developer from Montreal with a deep focus on React, and its eco-system."
+      
+    }
+`,
           }}
-        />
+        ></script>
       </Head>
       <main className="flex flex-col items-center pt-24">
         <Intro />
