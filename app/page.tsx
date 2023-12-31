@@ -7,6 +7,7 @@ import Experience from "@/components/experience";
 import Contact from "@/components/contact";
 import Divider from "@/components/divider";
 import Favicon from "@/public/favicon.ico";
+import { Person, WithContext } from "schema-dts";
 
 // Define schema and metadata types
 interface IconLink {
@@ -20,7 +21,7 @@ interface Metadata {
   icons: IconLink[];
 }
 
-// Metadata
+// Metadata for the site
 export const metadata: Metadata = {
   title: "Arthur Duboks - Full Stack React Developer, Montreal",
   description:
@@ -28,23 +29,26 @@ export const metadata: Metadata = {
   icons: [{ rel: "icon", url: Favicon.src as string }],
 };
 
-function addPersonJsonLd() {
+type ExtendedPerson = Person & {
+  headline?: string;
+  image?: string;
+};
+
+function getPersonJsonLd(): WithContext<ExtendedPerson> {
   return {
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Person",
-      name: "Arthur Duboks",
-      url: "http://www.arthurduboks.com",
-      jobTitle: "Full Stack Developer",
-      headline: metadata.title,
-      image:
-        "https://www.codebyarthur.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprofileimg.6e291786.png&w=384&q=85",
-      sameAs: [
-        "https://github.com/arthurduboks",
-        "https://www.linkedin.com/in/arthur-duboks",
-      ],
-      description: metadata.description,
-    }),
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Arthur Duboks",
+    url: "http://www.arthurduboks.com",
+    jobTitle: "Full Stack Developer",
+    headline: metadata.title,
+    image:
+      "https://www.codebyarthur.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprofileimg.6e291786.png&w=384&q=85",
+    sameAs: [
+      "https://github.com/arthurduboks",
+      "https://www.linkedin.com/in/arthur-duboks",
+    ],
+    description: metadata.description,
   };
 }
 
@@ -59,7 +63,9 @@ export default function Home() {
         ))}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={addPersonJsonLd()}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(getPersonJsonLd()),
+          }}
         />
       </Head>
       <main className="flex flex-col items-center pt-24">
