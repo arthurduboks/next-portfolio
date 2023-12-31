@@ -7,7 +7,6 @@ import Experience from "@/components/experience";
 import Contact from "@/components/contact";
 import Divider from "@/components/divider";
 import Favicon from "@/public/favicon.ico";
-import { Person, WithContext } from "schema-dts";
 
 // Define schema and metadata types
 interface IconLink {
@@ -29,29 +28,6 @@ export const metadata: Metadata = {
   icons: [{ rel: "icon", url: Favicon.src as string }],
 };
 
-type ExtendedPerson = Person & {
-  headline?: string;
-  image?: string;
-};
-
-function getPersonJsonLd(): WithContext<ExtendedPerson> {
-  return {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    name: "Arthur Duboks",
-    url: "http://www.arthurduboks.com",
-    jobTitle: "Full Stack Developer",
-    headline: metadata.title,
-    image:
-      "https://www.codebyarthur.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprofileimg.6e291786.png&w=384&q=85",
-    sameAs: [
-      "https://github.com/arthurduboks",
-      "https://www.linkedin.com/in/arthur-duboks",
-    ],
-    description: metadata.description,
-  };
-}
-
 export default function Home() {
   return (
     <>
@@ -61,12 +37,6 @@ export default function Home() {
         {metadata.icons.map((icon, index) => (
           <link key={index} rel={icon.rel} href={icon.url} />
         ))}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(getPersonJsonLd()),
-          }}
-        />
       </Head>
       <main className="flex flex-col items-center pt-24">
         <Intro />
