@@ -19,10 +19,9 @@ function About() {
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
         I began my career with a strong foundation in Digital Marketing and then
-        followed my
-        <span className="italic">passion</span> for programming. I completed an
-        immersive 900-hour course in
-        <span className="font-semibold">Full-Stack Development</span> at
+        followed my <span className="italic">passion</span> for programming. I
+        completed an immersive 900-hour course in{" "}
+        <span className="font-semibold">Full Stack Development</span> at{" "}
         <a
           href="https://www.montrealcollege.ca/"
           target="_blank"
@@ -31,7 +30,7 @@ function About() {
         >
           MCIT
         </a>
-        . I<span className="italic">love</span> seeing my code come to life and
+        . I <span className="italic">love</span> seeing my code come to life and
         accomplish amazing things. My core stack includes React, Node.js,
         Express, and MongoDB. Recently, I've been focusing extensively on
         working with Next.js, paired with Firebase and other cloud-based
