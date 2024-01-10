@@ -58,10 +58,8 @@ function Intro() {
       >
         <span className="font-bold">Hey, I'm Arthur,</span>
         <br />a{" "}
-        <span className="font-bold underline">
-          React Full Stack Developer
-        </span>{" "}
-        based in Montreal, Canada.
+        <span className="font-bold underline">Full Stack Developer</span> based
+        in Montreal, Canada.
       </motion.h1>
 
       <motion.div

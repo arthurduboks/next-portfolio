@@ -18,10 +18,11 @@ function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        I started with a strong background in Digital Marketing and followed my{" "}
-        <span className="italic">passion</span> for programming. I finished an
-        immersive 900-hour course in{" "}
-        <span className="font-semibold">Full-Stack Development</span> at{" "}
+        I began my career with a strong foundation in Digital Marketing and then
+        followed my
+        <span className="italic">passion</span> for programming. I completed an
+        immersive 900-hour course in
+        <span className="font-semibold">Full-Stack Development</span> at
         <a
           href="https://www.montrealcollege.ca/"
           target="_blank"
@@ -30,12 +31,13 @@ function About() {
         >
           MCIT
         </a>
-        . I <span className="italic">love</span> seeing my code come to life and
-        do amazing things. My core stack is React, Node.js, Express and Mongo
-        DB. Recently, I've been extensively working with Next.js paired with
-        Firebase and Appwrite. I know how to use TypeScript, create user
-        authentication, and how to make websites look great thanks to Tailwind
-        CSS and Framer Motion.
+        . I<span className="italic">love</span> seeing my code come to life and
+        accomplish amazing things. My core stack includes React, Node.js,
+        Express, and MongoDB. Recently, I've been focusing extensively on
+        working with Next.js, paired with Firebase and other cloud-based
+        databases, to build full stack projects. I am proficient in TypeScript,
+        skilled in creating user authentication, and adept at making websites
+        visually appealing using Tailwind CSS and Framer Motion.
       </p>
     </motion.section>
   );

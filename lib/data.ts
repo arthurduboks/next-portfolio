@@ -61,7 +61,7 @@ export const experiencesData = [
     title: "MCIT",
     location: "Canada, Montreal",
     description:
-      "Completed a comprehensive 900-hour immersive college program focused on Full-Stack Development.",
+      "Completed a comprehensive 900-hour immersive college program focused on Full Stack Development.",
     icon: React.createElement(LuGraduationCap),
     date: "2022 - 2023",
   },
