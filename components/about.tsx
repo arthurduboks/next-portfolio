@@ -20,7 +20,7 @@ function About() {
       <p className="mb-3">
         I began my career with a strong foundation in Digital Marketing and then
         followed my <span className="italic">passion</span> for programming. I
-        completed an immersive 900-hour course in{" "}
+        completed an immersive 900-hour college course in{" "}
         <span className="font-semibold">Full Stack Development</span> at{" "}
         <a
           href="https://www.montrealcollege.ca/"

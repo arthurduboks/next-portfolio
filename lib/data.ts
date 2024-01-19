@@ -4,6 +4,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import dropboxImg from "@/public/dropboxclone.png";
 import ecomProjectImg from "@/public/ecomproject.png";
 import reactMusicPlayerImg from "@/public/reactmusicplayer.png";
+import gptCreative from "@/public/gptcreative.png";
 
 export const links = [
   {
@@ -39,7 +40,7 @@ export const experiencesData = [
     description:
       "Day-to-day e-commerce management of Thrustmaster & Hercules DJ USA. Additionally, I manage digital advertising, SEO, and more.",
     icon: React.createElement(CgWorkAlt),
-    date: "2020 - 2023",
+    date: "2022 - Present",
   },
   {
     title: "Lighthouse Labs",
@@ -76,6 +77,23 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "GPT-Creative",
+    description:
+      "GPT-Creative is an app powered by OpenAI, designed to answer marketing-related questions through prompt engineering.",
+    tags: [
+      "Next.js",
+      "React Query",
+      "PlanetScale",
+      "Prisma",
+      "OpenAI",
+      "Clerk AUTH",
+      "Tailwind",
+      "daisyUI",
+    ],
+    imageUrl: gptCreative,
+    projectLink: "https://github.com/arthurduboks/gpt-creative",
+  },
   {
     title: "DropBox Clone",
     description:
@@ -127,6 +145,7 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Redux",
+  "React Query",
   "Zustand",
   "Next.js",
   "Bootstrap",
@@ -134,17 +153,20 @@ export const skillsData = [
   "Headless UI",
   "shadcn",
   "daisyUI",
+  "Framer Motion",
   "Prisma",
   "MongoDB",
   "Firebase",
   "PostgreSQL",
+  "PlanetScale",
   "Node.js",
   "Express",
   "RESTful API",
+  "OpenAI",
+  "Postman",
   "Clerk AUTH",
   "Next AUTH",
   "Bcrypt",
-  "Framer Motion",
   "Stripe",
   "SEO",
 ] as const;
