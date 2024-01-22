@@ -8,8 +8,8 @@ export function middleware(request: NextRequest) {
 
   const response = NextResponse.next();
   response.headers.set("Content-Security-Policy", csp);
-  response.headers.set("X-Content-Security-Policy", csp); // For older browsers
-  response.headers.set("X-WebKit-CSP", csp); // For even older browsers
+  response.headers.set("X-Content-Security-Policy", csp);
+  response.headers.set("X-WebKit-CSP", csp);
 
   return response;
 }
