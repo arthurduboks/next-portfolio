@@ -32,11 +32,13 @@ function About() {
         </a>
         . I <span className="italic">love</span> seeing my code come to life and
         accomplish amazing things. My core stack includes React, Node.js,
-        Express, and MongoDB. Recently, I've been focusing extensively on
-        working with Next.js, paired with Firebase and other cloud-based
-        databases, to build full stack projects. I am proficient in TypeScript,
-        skilled in creating user authentication, and adept at making websites
-        visually appealing using Tailwind CSS and Framer Motion.
+        Express, and MongoDB. Recently, I've been extensively focused on working
+        with Next.js, in combination with Firebase and other cloud-based
+        databases, to develop full-stack projects. I am proficient in TypeScript
+        and have expertise in creating user authentication systems.
+        Additionally, I excel in designing visually appealing websites using
+        Tailwind CSS, Framer Motion, shadcn/ui, and various other CSS UI
+        libraries.
       </p>
     </motion.section>
   );

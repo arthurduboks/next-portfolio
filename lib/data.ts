@@ -166,7 +166,7 @@ export const skillsData = [
   "Postman",
   "Clerk AUTH",
   "Next AUTH",
-  "Bcrypt",
   "Stripe",
   "SEO",
+  "Figma",
 ] as const;
