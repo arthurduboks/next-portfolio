@@ -22,9 +22,9 @@ interface Metadata {
 
 // Metadata for the site
 export const metadata: Metadata = {
-  title: "Arthur Duboks - Full Stack React Developer, Montreal",
+  title: "CodeByArthur - Full Stack React Developer, Montreal",
   description:
-    "Arthur Duboks is a Full Stack Developer from Montreal with a deep focus on React, and its eco-system.",
+    "Hey! I'm a Full Stack Developer from Montreal with a deep focus on React, and its eco-system.",
   icons: [{ rel: "icon", url: Favicon.src as string }],
 };
 

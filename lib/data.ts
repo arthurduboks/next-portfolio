@@ -51,7 +51,7 @@ export const experiencesData = [
     date: "2022",
   },
   {
-    title: "L1 Tech Support",
+    title: "L1 Tech Support Engineer",
     location: "Remote, Contract",
     description:
       "Assist Debutify Shopify theme users in optimizing their sites by providing expertise in HTML, CSS, and Shopify Liquid.",
@@ -67,7 +67,7 @@ export const experiencesData = [
     date: "2022 - 2023",
   },
   {
-    title: "L2 Tech Support",
+    title: "L2 Tech Support Engineer",
     location: "Remote, Contract",
     description:
       "I now manage Level 2 support tickets, which includes issues related to CSS, Shopify Liquid, and JavaScript.",
