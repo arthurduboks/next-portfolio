@@ -38,13 +38,13 @@ export const experiencesData = [
     title: "North-America E-shop Brand Manager",
     location: "Canada, Montreal",
     description:
-      "Day-to-day e-commerce management of Thrustmaster & Hercules DJ USA. Additionally, I manage digital advertising, SEO, and more.",
+      "Day-to-day e-commerce management of Thrustmaster & Hercules DJ USA. Additionally, I manage digital advertising, SEO, CRO, and more.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - Present",
   },
   {
     title: "Lighthouse Labs",
-    location: "Canada",
+    location: "Canada, Montreal",
     description:
       "Completed a one-month Web Development course with a focus on HTML5, CSS3, Ruby, and MySQL.",
     icon: React.createElement(LuGraduationCap),
@@ -54,15 +54,15 @@ export const experiencesData = [
     title: "L1 Tech Support Engineer",
     location: "Remote, Contract",
     description:
-      "Assist Debutify Shopify theme users in optimizing their sites by providing expertise in HTML, CSS, and Shopify Liquid.",
+      "Help Debutify Shopify theme users with optimizing their e-commerce businesses by providing Level 1 support expertise via Intercom.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - present",
   },
   {
-    title: "MCIT",
+    title: "Montreal College of IT",
     location: "Canada, Montreal",
     description:
-      "Completed a comprehensive 900-hour immersive college program focused on Full Stack Development.",
+      "Completed a comprehensive 900-hour immersive college degree program focused on Full-Stack Development.",
     icon: React.createElement(LuGraduationCap),
     date: "2022 - 2023",
   },
@@ -70,7 +70,7 @@ export const experiencesData = [
     title: "L2 Tech Support Engineer",
     location: "Remote, Contract",
     description:
-      "I now manage Level 2 support tickets, which includes issues related to CSS, Shopify Liquid, and JavaScript.",
+      "I now resolve Level 2 support tickets, which includes issues related to CSS, jQuery, Shopify Liquid, and JavaScript.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - present",
   },
@@ -163,7 +163,6 @@ export const skillsData = [
   "Express",
   "RESTful API",
   "OpenAI",
-  "Postman",
   "Clerk AUTH",
   "Next AUTH",
   "Stripe",

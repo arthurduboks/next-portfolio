@@ -21,7 +21,7 @@ function About() {
         I began my career with a strong foundation in Digital Marketing and then
         followed my <span className="italic">passion</span> for programming. I
         completed an immersive 900-hour college course in{" "}
-        <span className="font-semibold">Full Stack Development</span> at{" "}
+        <span className="font-semibold">Full-Stack Development</span> at{" "}
         <a
           href="https://www.montrealcollege.ca/"
           target="_blank"
@@ -34,11 +34,9 @@ function About() {
         accomplish amazing things. My core stack includes React, Node.js,
         Express, and MongoDB. Recently, I've been extensively focused on working
         with Next.js, in combination with Firebase and other cloud-based
-        databases, to develop full-stack projects. I am proficient in TypeScript
-        and have expertise in creating user authentication systems.
-        Additionally, I excel in designing visually appealing websites using
-        Tailwind CSS, Framer Motion, shadcn/ui, and various other CSS UI
-        libraries.
+        databases, to develop full-stack projects. I know TypeScript and have
+        experience in building user authentication systems. My favorite CSS
+        libraries for front-end are Tailwind CSS, Framer Motion, and shadcn/ui.
       </p>
     </motion.section>
   );
