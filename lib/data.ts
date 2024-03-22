@@ -80,7 +80,7 @@ export const experiencesData = [
     description:
       "Diagnose and address bugs in Shopify Liquid, JavaScript, CSS, and jQuery successfully optimizing Debutify theme functionality. Partner with the Level L3 team to rectify complex back-end-related issues.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - Present",
+    date: "2024 - Present",
   },
 ] as const;
 
