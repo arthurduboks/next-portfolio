@@ -35,7 +35,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "North-America E-shop Brand Manager",
+    title: "North-America E-Commerce Brand Manager",
     location: "Canada, Montreal",
     description:
       "Day-to-day e-commerce management of Thrustmaster & Hercules DJ USA. Additionally, I manage digital advertising, SEO, CRO, and more.",
@@ -51,8 +51,8 @@ export const experiencesData = [
     date: "2022",
   },
   {
-    title: "L1 Tech Support Engineer",
-    location: "Remote, Contract",
+    title: "L1 Tech Support Engineer - Contract",
+    location: "Canada, Montreal",
     description:
       "Help Debutify Shopify theme users with optimizing their e-commerce businesses by providing Level 1 support expertise via Intercom.",
     icon: React.createElement(CgWorkAlt),
@@ -67,12 +67,20 @@ export const experiencesData = [
     date: "2022 - 2023",
   },
   {
-    title: "L2 Tech Support Engineer",
-    location: "Remote, Contract",
+    title: "L2 Tech Support Engineer - Contract",
+    location: "Canada, Montreal",
     description:
       "I now resolve Level 2 support tickets, which includes issues related to CSS, jQuery, Shopify Liquid, and JavaScript.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - present",
+    date: "2023 - 2024",
+  },
+  {
+    title: "L2 Tech Support Lead - Contract",
+    location: "Canada, Montreal",
+    description:
+      "Diagnose and address bugs in Shopify Liquid, JavaScript, CSS, and jQuery successfully optimizing Debutify theme functionality. Partner with the Level L3 team to rectify complex back-end-related issues.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - Present",
   },
 ] as const;
 
@@ -84,7 +92,7 @@ export const projectsData = [
     tags: [
       "Next.js",
       "React Query",
-      "PlanetScale",
+      "Railway",
       "Prisma",
       "OpenAI",
       "Clerk AUTH",
@@ -158,10 +166,11 @@ export const skillsData = [
   "MongoDB",
   "Firebase",
   "PostgreSQL",
-  "PlanetScale",
+  "Railway",
   "Node.js",
   "Express",
   "RESTful API",
+  "Jest",
   "OpenAI",
   "Clerk AUTH",
   "Next AUTH",

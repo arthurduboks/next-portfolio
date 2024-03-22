@@ -83,7 +83,7 @@ function Intro() {
         </Link>
 
         <a
-          href="/CV.pdf"
+          href="/Arthur Duboks Developer-Online.docx"
           download
           aria-label="Download resume"
           className="bg-white px-7 py-3 flex items-center gap-2 rounded-full group transition outline-none focus:scale-110 hover:scale-110 active:scale-105 border borderBlack dark:bg-white/10"
