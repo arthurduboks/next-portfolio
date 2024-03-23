@@ -35,6 +35,14 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Lighthouse Labs",
+    location: "Canada, Montreal",
+    description:
+      "Completed a one-month Web Development course with a focus on HTML5, CSS3, Ruby, and MySQL.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021",
+  },
+  {
     title: "North-America E-Commerce Brand Manager",
     location: "Canada, Montreal",
     description:
@@ -43,20 +51,12 @@ export const experiencesData = [
     date: "2022 - Present",
   },
   {
-    title: "Lighthouse Labs",
-    location: "Canada, Montreal",
-    description:
-      "Completed a one-month Web Development course with a focus on HTML5, CSS3, Ruby, and MySQL.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2022",
-  },
-  {
     title: "L1 Tech Support Engineer - Contract",
     location: "Canada, Montreal",
     description:
       "Help Debutify Shopify theme users with optimizing their e-commerce businesses by providing Level 1 support expertise via Intercom.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - present",
+    date: "2022 - 2024",
   },
   {
     title: "Montreal College of IT",
