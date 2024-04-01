@@ -36,7 +36,7 @@ function Intro() {
             />
           </motion.div>
           <motion.span
-            className="absolute text-4xl bottom-0 right-0"
+            className="absolute text-3xl bottom-0 left-0"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -46,7 +46,7 @@ function Intro() {
               duration: 0.7,
             }}
           >
-            👋
+            🖐️
           </motion.span>
         </div>
       </div>
